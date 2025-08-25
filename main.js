@@ -36,7 +36,7 @@ console.log(isLoggedIn);
 
 //undefined(variable declared but not assigned)
 let notAssigned;
-console.log(emptyValue);
+console.log(notAssigned);
 
 //null (explicitly no value)
 let emptyValue = null;
@@ -52,9 +52,6 @@ let person = {
 }
 console.log(person);
 
-//Arrays
-let fruits = [Apple, Banana, Orange];
-console.log(fruits);
 
 let number = [1, 2, 3, 4, 5];
 console.log(number)
@@ -67,9 +64,87 @@ let surName = "chelangat";
 let givenName = "Chela";
 let otherName = "Valu";
 const fullName = surName + " " + givenName + " " + otherName
+console.log(fullName);
 console.log(surName);
 console.log(givenName);
 console.log(otherName);
 
 
+//conditional statements
+let score;
+score=85;
+//let condition = score > 50;
+if (score>50) {
+    //code to be expected if condition is true
+    console.log("you passed");
+}
 
+else{
+     //code to be expected if condition is false
+     console.log("you failed");
+}
+
+//comparison operators
+//equal to (==) and strict equal to (===)
+let value;
+value = "10";
+if (value === 10) {
+    console.log ("true,they are equal"); //this will not execute
+}
+if (value == 10) {
+    console.log("true they are equal")
+}
+//Not equal to (!=) and Strict Not Equal to (!==)
+let val;
+val = 20;
+if (val !="20") {
+    console.log("True, they are not equal"); //this will not execute
+}
+if (val !== "20"){
+    console.log("True, they are not equal");
+}
+
+//more than two conditions
+let num;
+num = 96;
+if (num >=95){
+    console.log("Grade A")
+}
+else if (num >=85){
+    console.log("Grade B")
+}
+else{
+    console.log("you have totally failed");
+}
+
+//functions
+//Function Declaration
+function functioName() {
+    console.log("This is a function declared");
+}
+
+//Call the function
+functionName();
+
+//Function with parameters
+function greet(name) {
+    console.log("Hello, My name is " + name + "and I am" +age+ "years old");
+}
+greet ("Betty",30)
+greet ("Sylvia",19)
+greet ("Julie", 18)
+greet ("Carol", 8)
+
+//function with return value
+function add(a,b) {
+     return a+b;
+}}
+   
+    console
+
+
+
+
+//Arrays
+//let fruits = [Apple, Banana, Orange];
+//console.log(fruits);
